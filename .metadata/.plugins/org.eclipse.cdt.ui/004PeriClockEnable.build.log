@@ -1,0 +1,10 @@
+17:44:07 **** Incremental Build of configuration Debug for project 004PeriClockEnable ****
+make -j4 all 
+arm-none-eabi-size   004PeriClockEnable.elf 
+   text	   data	    bss	    dec	    hex	filename
+    744	      8	   1568	   2320	    910	004PeriClockEnable.elf
+Finished building: default.size.stdout
+ 
+
+17:44:09 Build Finished. 0 errors, 0 warnings. (took 2s.453ms)
+

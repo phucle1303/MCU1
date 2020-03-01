@@ -1,0 +1,854 @@
+2019-12-26 14:18:10,900 [INFO] Activator:176 - 
+
+
+2019-12-26 14:18:10,907 [INFO] Activator:177 - !SESSION log4j initialized
+2019-12-26 14:18:40,523 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://download.eclipse.org:80: The target server failed to respond
+2019-12-26 14:18:40,528 [INFO] RetryExec:113 - Retrying request to {}->http://download.eclipse.org:80
+2019-12-26 14:18:40,720 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://download.eclipse.org:80: Socket Closed
+2019-12-26 14:18:40,721 [INFO] RetryExec:113 - Retrying request to {}->http://download.eclipse.org:80
+2019-12-26 14:19:02,646 [INFO] Activator:176 - 
+
+
+2019-12-26 14:19:02,653 [INFO] Activator:177 - !SESSION log4j initialized
+2019-12-26 14:19:18,259 [INFO] ApplicationProperties:181 - Using Application install path: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2019-12-26 14:19:18,306 [INFO] DbMcusXml:68 - Set database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2019-12-26 14:19:18,315 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2019-12-26 14:19:18,315 [INFO] DbMcus:265 - Set plugin images path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2019-12-26 14:19:18,316 [INFO] DbBoards:232 - Set plugin images path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2019-12-26 14:19:18,325 [INFO] APIGFXSelector:72 - Set database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2019-12-26 14:19:18,424 [INFO] DbMcusAds:72 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:18,426 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:18,430 [INFO] DbMcusJson:59 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:18,432 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:18,433 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:18,481 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2019-12-26 14:19:19,097 [INFO] RulesReader:52 - Compatibility file has been processed (179 Rules)
+2019-12-26 14:19:19,424 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2019-12-26 14:19:19,424 [INFO] DbMcusXml:68 - Set database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2019-12-26 14:19:19,425 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2019-12-26 14:19:19,427 [INFO] DbMcus:265 - Set plugin images path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2019-12-26 14:19:19,428 [INFO] DbBoards:232 - Set plugin images path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2019-12-26 14:19:19,428 [INFO] APIGFXSelector:72 - Set database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2019-12-26 14:19:19,429 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:19,429 [INFO] DbMcusAds:72 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:19,430 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:19,430 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:19,431 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:19,431 [INFO] DbMcusJson:59 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:19,431 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:19,431 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:19,432 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:19,432 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:19,432 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:19,433 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:19,433 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2019-12-26 14:19:19,698 [INFO] MainPanel:185 - HeapMemory: 268435456
+2019-12-26 14:19:20,418 [INFO] DbMcusXml:68 - Set database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2019-12-26 14:19:20,418 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2019-12-26 14:19:20,419 [INFO] DbMcus:265 - Set plugin images path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2019-12-26 14:19:20,419 [INFO] DbBoards:232 - Set plugin images path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2019-12-26 14:19:20,419 [INFO] APIGFXSelector:72 - Set database path to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2019-12-26 14:19:20,433 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:20,434 [INFO] DbMcusAds:72 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:20,434 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:20,434 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:20,435 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:20,435 [INFO] DbMcusJson:59 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:20,435 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:20,436 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:20,436 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:20,436 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/
+2019-12-26 14:19:20,436 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:20,437 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\leloc\.stmcufinder\plugins\mcufinder/ => C:\Users\leloc\.stmcufinder\plugins\mcufinder
+2019-12-26 14:19:20,437 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\leloc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2019-12-26 14:19:20,532 [INFO] ApplicationProperties:181 - Using Application install path: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2019-12-26 14:19:20,535 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2019-12-26 14:19:20,550 [INFO] PluginManage:292 - Check plugin analytics
+2019-12-26 14:19:20,586 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2019-12-26 14:19:20,587 [INFO] PluginManage:292 - Check plugin clock
+2019-12-26 14:19:20,630 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2019-12-26 14:19:20,631 [INFO] PluginManage:292 - Check plugin ddr
+2019-12-26 14:19:20,652 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2019-12-26 14:19:20,653 [INFO] PluginManage:292 - Check plugin filemanager
+2019-12-26 14:19:21,200 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2019-12-26 14:19:21,201 [INFO] PluginManage:292 - Check plugin ipmanager
+2019-12-26 14:19:21,266 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2019-12-26 14:19:21,267 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2019-12-26 14:19:21,326 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2019-12-26 14:19:21,326 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2019-12-26 14:19:21,573 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2019-12-26 14:19:21,573 [INFO] PluginManage:292 - Check plugin power
+2019-12-26 14:19:21,658 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2019-12-26 14:19:21,658 [INFO] PluginManage:292 - Check plugin projectmanager
+2019-12-26 14:19:21,738 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2019-12-26 14:19:21,739 [INFO] PluginManage:292 - Check plugin thirdparty
+2019-12-26 14:19:21,904 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/leloc/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 61 ms. number of Sw pack : 12
+2019-12-26 14:19:22,049 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2019-12-26 14:19:22,050 [INFO] PluginManage:292 - Check plugin tools
+2019-12-26 14:19:22,074 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2019-12-26 14:19:22,075 [INFO] PluginManage:292 - Check plugin updater
+2019-12-26 14:19:22,139 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2019-12-26 14:19:22,140 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2019-12-26 14:19:23,058 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-12-26 14:19:23,573 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,574 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2019-12-26 14:19:23,596 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,597 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2019-12-26 14:19:23,612 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,613 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2019-12-26 14:19:23,619 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,619 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2019-12-26 14:19:23,625 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,626 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2019-12-26 14:19:23,635 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,635 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2019-12-26 14:19:23,652 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,654 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2019-12-26 14:19:23,657 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,657 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2019-12-26 14:19:23,666 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,667 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2019-12-26 14:19:23,694 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,694 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2019-12-26 14:19:23,698 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,699 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2019-12-26 14:19:23,706 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,706 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2019-12-26 14:19:23,716 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,716 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2019-12-26 14:19:23,726 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,727 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2019-12-26 14:19:23,741 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,742 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2019-12-26 14:19:23,748 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,749 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2019-12-26 14:19:23,768 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,769 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2019-12-26 14:19:23,809 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,810 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2019-12-26 14:19:23,823 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,823 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2019-12-26 14:19:23,857 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,858 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2019-12-26 14:19:23,873 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,873 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2019-12-26 14:19:23,893 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,893 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2019-12-26 14:19:23,911 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,913 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2019-12-26 14:19:23,919 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,919 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2019-12-26 14:19:23,933 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,933 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2019-12-26 14:19:23,950 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,956 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2019-12-26 14:19:23,968 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,968 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2019-12-26 14:19:23,973 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,974 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2019-12-26 14:19:23,989 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:23,990 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2019-12-26 14:19:23,999 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,000 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2019-12-26 14:19:24,019 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,020 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2019-12-26 14:19:24,060 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,065 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2019-12-26 14:19:24,096 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,099 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2019-12-26 14:19:24,109 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,110 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2019-12-26 14:19:24,137 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,138 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2019-12-26 14:19:24,151 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,152 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2019-12-26 14:19:24,165 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,168 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2019-12-26 14:19:24,183 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 14:19:24,184 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2019-12-26 14:19:25,771 [INFO] BoardConnectionPanel:220 - [DDR PANEL] osNameString: Windows
+2019-12-26 14:19:26,139 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2019-12-26 14:19:26,140 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2019-12-26 14:19:26,533 [FATAL] Updater:277 - Updater called before beeing initialized
+2019-12-26 14:19:27,172 [FATAL] Updater:277 - Updater called before beeing initialized
+2019-12-26 14:19:27,187 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-12-26 14:19:27,188 [FATAL] Updater:277 - Updater called before beeing initialized
+2019-12-26 14:19:27,201 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2019-12-26 14:19:27,201 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2019-12-26 14:19:27,226 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin\STM32_Programmer_CLI.exe -l
+2019-12-26 14:19:27,955 [FATAL] Updater:277 - Updater called before beeing initialized
+2019-12-26 14:19:27,955 [ERROR] IntegrityCheckThread:230 - Cannot obtain thirdParties list 21
+2019-12-26 14:19:27,955 [ERROR] IntegrityCheckThread:99 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2019-12-26 14:19:27,956 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/leloc/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2019-12-26 14:19:28,336 [INFO] MainDdrPanel:90 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2019-12-26 14:19:28,426 [INFO] Updater:886 - Updater Version found : 5.4.0
+2019-12-26 14:19:28,484 [INFO] ApplicationProperties:181 - Using Application install path: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2019-12-26 14:19:28,857 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 14:19:28,860 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2019-12-26 14:19:28,860 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2019-12-26 14:19:29,027 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2019-12-26 14:19:29,085 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 14:19:29,086 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-26 14:19:29,687 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-26 14:19:29,743 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-26 14:19:29,765 [INFO] DbMcusXml:106 - Load MCU database from D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2019-12-26 14:19:31,929 [INFO] DbMcusJson:87 - JSON generation date=Wed Dec 11 12:27:49 CET 2019 (1576063669)
+2019-12-26 14:19:34,129 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2019-12-26 14:19:34,132 [INFO] ApiDb:158 - Load user favorites file C:\Users\leloc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2019-12-26 14:19:34,132 [INFO] ApiDb:163 - User favorites MCUs=[]
+2019-12-26 14:19:34,133 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2019-12-26 14:19:35,886 [INFO] DbMcusAds:130 - JSON generation date=Wed Feb 20 17:46:15 CET 2019 (1550681175)
+2019-12-26 14:19:35,890 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 14:19:35,912 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 14:19:38,386 [INFO] ServerAccessManage:348 - Download File mcusDocs.json
+2019-12-26 14:19:38,472 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2019-12-26 14:19:47,037 [INFO] ServerAccessManage:348 - Download File mcusFeaturesAndDescription.json
+2019-12-26 14:19:47,687 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2019-12-26 14:19:47,771 [INFO] ServerAccessManage:348 - Download File mcusAds.json
+2019-12-26 14:19:47,791 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2019-12-26 14:19:49,341 [INFO] ServerAccessManage:348 - Download File boardsDocs.json
+2019-12-26 14:19:49,380 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2019-12-26 14:19:49,869 [INFO] ServerAccessManage:348 - Download File boards.json
+2019-12-26 14:19:49,922 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2019-12-26 14:19:51,077 [INFO] ServerAccessManage:348 - Download File crdb.zip
+2019-12-26 14:19:51,273 [INFO] FileExtend:210 - Unzip File : crdb.zip
+2019-12-26 14:19:51,276 [INFO] FileExtend:225 - Standard Zip Deflate
+2019-12-26 14:19:51,315 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2019-12-26 14:19:51,327 [INFO] DbMcusDocs:126 - JSON generation date=Wed Dec 11 12:27:49 CET 2019 (1576063669)
+2019-12-26 14:19:51,618 [INFO] DbMcusDocs:61 - Found 537 MCUs documents
+2019-12-26 14:19:51,620 [INFO] ApiDb:186 - Save user favorites file C:\Users\leloc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2019-12-26 14:19:51,620 [INFO] ApiDb:191 - User favorites MCUs=[]
+2019-12-26 14:19:51,621 [INFO] DbMcusXml:106 - Load MCU database from D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2019-12-26 14:19:53,333 [INFO] DbMcusJson:87 - JSON generation date=Wed Dec 11 12:27:49 CET 2019 (1576063669)
+2019-12-26 14:19:54,153 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2019-12-26 14:19:54,154 [INFO] ApiDb:158 - Load user favorites file C:\Users\leloc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2019-12-26 14:19:54,155 [INFO] ApiDb:163 - User favorites MCUs=[]
+2019-12-26 14:19:54,155 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2019-12-26 14:19:54,271 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-26 14:19:55,023 [INFO] DbBoardsDocs:118 - JSON generation date=Wed Dec 11 12:27:49 CET 2019 (1576063669)
+2019-12-26 14:19:55,190 [INFO] DbBoardsPdsc:92 - Found 19 items
+2019-12-26 14:19:55,200 [INFO] DbBoardsPdsc:92 - Found 9 items
+2019-12-26 14:19:55,209 [INFO] DbBoardsPdsc:92 - Found 27 items
+2019-12-26 14:19:55,231 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-12-26 14:19:55,258 [INFO] DbBoardsPdsc:92 - Found 38 items
+2019-12-26 14:19:55,300 [INFO] DbBoardsPdsc:92 - Found 38 items
+2019-12-26 14:19:55,310 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-12-26 14:19:55,369 [INFO] DbBoardsJson:79 - JSON generation date=Fri Dec 13 10:50:48 CET 2019 (1576230648)
+2019-12-26 14:19:55,400 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2019-12-26 14:19:55,414 [INFO] DbBoardsDocs:118 - JSON generation date=Wed Dec 11 12:27:49 CET 2019 (1576063669)
+2019-12-26 14:19:55,452 [INFO] DbBoardsDocs:57 - Found 160 boards documents
+2019-12-26 14:19:55,454 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2019-12-26 14:19:55,466 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2019-12-26 14:19:55,466 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2019-12-26 14:19:55,466 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2019-12-26 14:19:55,467 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2019-12-26 14:19:55,470 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2019-12-26 14:19:55,471 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2019-12-26 14:19:55,473 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2019-12-26 14:19:55,473 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2019-12-26 14:19:55,474 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2019-12-26 14:19:55,474 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2019-12-26 14:19:55,474 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2019-12-26 14:19:55,474 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2019-12-26 14:19:55,479 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2019-12-26 14:19:55,480 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2019-12-26 14:19:55,481 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2019-12-26 14:19:55,481 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2019-12-26 14:19:55,481 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2019-12-26 14:19:56,719 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2019-12-26 14:19:57,467 [INFO] ApiDb:158 - Load user favorites file C:\Users\leloc/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2019-12-26 14:19:57,467 [INFO] ApiDb:163 - User favorites Boards=[]
+2019-12-26 14:19:57,468 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2019-12-26 14:19:57,474 [INFO] DbBoardsDocs:57 - Found 320 boards documents
+2019-12-26 14:19:57,475 [INFO] ApiDb:186 - Save user favorites file C:\Users\leloc/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2019-12-26 14:19:57,476 [INFO] ApiDb:191 - User favorites Boards=[]
+2019-12-26 14:19:57,482 [INFO] DbBoardsPdsc:92 - Found 19 items
+2019-12-26 14:19:57,484 [INFO] DbBoardsPdsc:92 - Found 9 items
+2019-12-26 14:19:57,488 [INFO] DbBoardsPdsc:92 - Found 27 items
+2019-12-26 14:19:57,490 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-12-26 14:19:57,496 [INFO] DbBoardsPdsc:92 - Found 38 items
+2019-12-26 14:19:57,501 [INFO] DbBoardsPdsc:92 - Found 38 items
+2019-12-26 14:19:57,503 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-12-26 14:19:57,518 [INFO] DbBoardsJson:79 - JSON generation date=Fri Dec 13 10:50:48 CET 2019 (1576230648)
+2019-12-26 14:19:57,524 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2019-12-26 14:19:57,525 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2019-12-26 14:19:57,527 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2019-12-26 14:19:57,528 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2019-12-26 14:19:57,528 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2019-12-26 14:19:57,529 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2019-12-26 14:19:57,529 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2019-12-26 14:19:57,530 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2019-12-26 14:19:57,531 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2019-12-26 14:19:57,533 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2019-12-26 14:19:57,533 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2019-12-26 14:19:57,533 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2019-12-26 14:19:57,534 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2019-12-26 14:19:57,534 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2019-12-26 14:19:57,534 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2019-12-26 14:19:57,535 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2019-12-26 14:19:57,535 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2019-12-26 14:19:57,536 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2019-12-26 14:19:57,536 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2019-12-26 14:19:58,045 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2019-12-26 14:19:58,414 [INFO] ApiDb:158 - Load user favorites file C:\Users\leloc/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2019-12-26 14:19:58,414 [INFO] ApiDb:163 - User favorites Boards=[]
+2019-12-26 14:19:58,415 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2019-12-26 14:19:58,705 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 14:19:58,710 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-26 14:19:59,221 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 14:19:59,222 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 14:19:59,355 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-26 14:20:00,103 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-26 14:20:34,044 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-26 14:20:34,044 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-26 14:20:34,044 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-26 16:52:54,898 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 16:52:54,900 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-26 16:52:54,910 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-26 16:52:54,911 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-26 16:52:56,431 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 16:52:56,431 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 16:52:56,723 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-26 16:52:56,844 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 16:52:56,844 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 16:52:56,859 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-26 16:52:56,904 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-26 16:53:23,351 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-26 16:53:23,351 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-26 16:53:23,351 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-26 17:02:09,362 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 17:02:09,362 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-26 17:02:09,381 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-26 17:02:09,382 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-26 17:02:09,932 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 17:02:09,932 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 17:02:10,252 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-26 17:02:10,372 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 17:02:10,372 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 17:02:10,387 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-26 17:02:10,402 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-26 17:02:40,540 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-26 17:02:40,540 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-26 17:02:40,540 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-26 17:24:11,392 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 17:24:11,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-26 17:24:11,402 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-26 17:24:11,402 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-26 17:24:12,002 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 17:24:12,002 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 17:24:12,212 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-26 17:24:12,318 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 17:24:12,318 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 17:24:12,672 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-26 17:24:12,682 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-26 17:24:29,282 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-26 17:24:29,282 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-26 17:24:29,282 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-26 21:59:05,021 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 21:59:05,030 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-26 21:59:05,058 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-26 21:59:05,065 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-26 21:59:06,044 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 21:59:06,044 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 21:59:06,391 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-26 21:59:06,632 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 21:59:06,632 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 21:59:06,651 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-26 21:59:06,670 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-26 22:00:06,993 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-26 22:00:06,996 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-26 22:00:06,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-26 22:00:15,468 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2019-12-26 22:00:18,013 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 22:00:18,016 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-26 22:00:18,117 [INFO] MicroXplorer:390 - Change Database Path : 
+2019-12-26 22:00:18,117 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2019-12-26 22:00:18,121 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-12-26 22:00:18,123 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 456145376 Bytes (618659840)
+2019-12-26 22:00:18,124 [INFO] OpenFileManager:269 - Change cursor
+2019-12-26 22:00:23,218 [INFO] Rule:205 - rule SPDIFRX instance for mcu is applicable
+2019-12-26 22:00:23,218 [INFO] Rule:205 - rule Rename Tracer Mode is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule SPDIFRX instance for signal is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule DFSDM instance value for IP DFSDM is applicable
+2019-12-26 22:00:23,219 [INFO] Rule:205 - rule DFSDM instance for mcu is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule DFSDM instance for VP is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule DFSDM instance for signal is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule DFSDM instance for shared is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule BreakInputSource parameter for IP Timer is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule Sourcebreak parameter for IP Timer is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule Sourcebreak parameter for IP Timer is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule DFSDM for PCC is applicable
+2019-12-26 22:00:23,220 [INFO] Rule:205 - rule Serial_Wire Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule JTAG_4_pins Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule JTAG_5_pins Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule Trace_Asynchronous_SW Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule Trace_Synchro_1bit_JTAG Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule Trace_Synchro_2bits_JTAG Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule Trace_Synchro_4bits_JTAG Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule Trace_Synchro_1bit_SW Mode is applicable
+2019-12-26 22:00:23,221 [INFO] Rule:205 - rule Trace_Synchro_2bits_SW Mode is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule Trace_Synchro_4bits_SW Mode is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule SYS_WakeUp0 Mode is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule SYS_WakeUp0 Mode for STM32F446 is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule SYS_WakeUp1 Mode is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule SYS_WakeUp1 Mode for STM32F446 is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule SYS_WakeUp2 Mode is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule SYS_WakeUp3 Mode is applicable
+2019-12-26 22:00:23,222 [INFO] Rule:205 - rule SYS_WakeUp4 Mode is applicable
+2019-12-26 22:00:23,223 [INFO] Rule:205 - rule SYS_WakeUp5 Mode is applicable
+2019-12-26 22:00:23,223 [INFO] Rule:205 - rule SYS_WakeUp6 Mode is applicable
+2019-12-26 22:00:23,224 [INFO] Rule:205 - rule SYS_WakeUp7 Mode is applicable
+2019-12-26 22:00:23,225 [INFO] Rule:205 - rule Mode_PVD_Ext is applicable
+2019-12-26 22:00:23,225 [INFO] Rule:205 - rule Mode_PVD_Int is applicable
+2019-12-26 22:00:23,225 [INFO] Rule:205 - rule Add RTC Activate Clock Source is applicable
+2019-12-26 22:00:23,225 [INFO] Rule:205 - rule Add RTC Activate Calendar 1 is applicable
+2019-12-26 22:00:23,226 [INFO] Rule:205 - rule Add RTC Activate Calendar 2 is applicable
+2019-12-26 22:00:23,226 [INFO] Rule:205 - rule Add RTC Activate Calendar 3 is applicable
+2019-12-26 22:00:23,226 [INFO] Rule:205 - rule UART/USART TX Mode is applicable
+2019-12-26 22:00:23,226 [INFO] Rule:205 - rule UART/USART RX Mode is applicable
+2019-12-26 22:00:23,226 [INFO] Rule:205 - rule UART/USART RX TX Mode is applicable
+2019-12-26 22:00:23,226 [INFO] Rule:205 - rule UART/USART PARITY NONE is applicable
+2019-12-26 22:00:23,227 [INFO] Rule:205 - rule UART/USART PARITY EVEN is applicable
+2019-12-26 22:00:23,227 [INFO] Rule:205 - rule UART/USART PARITY ODD is applicable
+2019-12-26 22:00:23,227 [INFO] Rule:205 - rule USART StopBits 1 is applicable
+2019-12-26 22:00:23,227 [INFO] Rule:205 - rule USART StopBits 2 is applicable
+2019-12-26 22:00:23,227 [INFO] Rule:205 - rule USART StopBits 1.5 is applicable
+2019-12-26 22:00:23,227 [INFO] Rule:205 - rule USART StopBits 0.5 is applicable
+2019-12-26 22:00:23,227 [INFO] Rule:205 - rule UART/USART WORD LENGTH 7 is applicable
+2019-12-26 22:00:23,228 [INFO] Rule:205 - rule UART/USART WORD LENGTH 8 is applicable
+2019-12-26 22:00:23,228 [INFO] Rule:205 - rule UART/USART WORD LENGTH 9 is applicable
+2019-12-26 22:00:23,228 [INFO] Rule:205 - rule Rename FMC NAND NCE signal is applicable
+2019-12-26 22:00:23,228 [INFO] Rule:205 - rule Rename FMC NAND INT signal is applicable
+2019-12-26 22:00:23,228 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2019-12-26 22:00:23,228 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2019-12-26 22:00:23,228 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2019-12-26 22:00:23,229 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2019-12-26 22:00:23,230 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2019-12-26 22:00:23,230 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2019-12-26 22:00:23,230 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2019-12-26 22:00:23,230 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2019-12-26 22:00:23,230 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2019-12-26 22:00:23,230 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2019-12-26 22:00:23,230 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2019-12-26 22:00:23,231 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2019-12-26 22:00:23,231 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2019-12-26 22:00:23,231 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2019-12-26 22:00:23,231 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2019-12-26 22:00:23,231 [INFO] Rule:205 - rule Rename USB_OE Signal is applicable
+2019-12-26 22:00:23,231 [INFO] Rule:205 - rule Rename Activate_OE Mode is applicable
+2019-12-26 22:00:23,231 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2019-12-26 22:00:23,232 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2019-12-26 22:00:23,232 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2019-12-26 22:00:23,232 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2019-12-26 22:00:23,232 [INFO] Rule:205 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2019-12-26 22:00:23,232 [INFO] Rule:205 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2019-12-26 22:00:23,232 [INFO] Rule:205 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2019-12-26 22:00:23,232 [INFO] Rule:205 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2019-12-26 22:00:23,233 [INFO] Rule:205 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2019-12-26 22:00:23,234 [INFO] Rule:205 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2019-12-26 22:00:23,234 [INFO] Rule:205 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2019-12-26 22:00:23,234 [INFO] Rule:205 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2019-12-26 22:00:23,234 [INFO] Rule:205 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2019-12-26 22:00:23,234 [INFO] Rule:205 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2019-12-26 22:00:23,234 [INFO] Rule:205 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2019-12-26 22:00:23,235 [INFO] Rule:205 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2019-12-26 22:00:23,235 [INFO] Rule:205 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2019-12-26 22:00:23,236 [INFO] Rule:205 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2019-12-26 22:00:23,236 [INFO] Rule:205 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2019-12-26 22:00:23,236 [INFO] Rule:205 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2019-12-26 22:00:23,236 [INFO] Rule:205 - rule TimeTriggeredMode to TTCM is applicable
+2019-12-26 22:00:23,236 [INFO] Rule:205 - rule Rename CAN AutoBusOff to ABOM is applicable
+2019-12-26 22:00:23,236 [INFO] Rule:205 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2019-12-26 22:00:23,236 [INFO] Rule:205 - rule Rename CAN AutoRetransmission to NART is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2019-12-26 22:00:23,237 [INFO] Rule:205 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2019-12-26 22:00:23,238 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2019-12-26 22:00:23,238 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2019-12-26 22:00:23,238 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2019-12-26 22:00:23,238 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2019-12-26 22:00:23,238 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2019-12-26 22:00:23,238 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2019-12-26 22:00:23,238 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2019-12-26 22:00:23,239 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2019-12-26 22:00:23,241 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2019-12-26 22:00:23,241 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2019-12-26 22:00:23,241 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2019-12-26 22:00:23,241 [INFO] Rule:205 - rule USART TxPinLevelInvertParam Mode is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule USART RxPinLevelInvertParam Mode is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule USART DataInvertParam Mode is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule USART SwapParam Mode is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule USART OverrunDisableParam Mode is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule USART DMADisableonRxErrorParam Mode is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule USART MSBFirstParam Mode is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule Update MwName for USB_DEVICE is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2019-12-26 22:00:23,242 [INFO] Rule:205 - rule TIM1CLockSelection is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule TIM15CLockSelection is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,243 [INFO] Rule:205 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule Rename DCMI PIXCK signal is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2019-12-26 22:00:23,244 [INFO] Rule:205 - rule Change Default Value for USART for G4 family is applicable
+2019-12-26 22:00:23,270 [INFO] DbConfProperties:222 - Apply Compatibility (75/175 Rules)
+2019-12-26 22:00:23,352 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2019-12-26 22:00:24,464 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 449111032 Bytes (618659840)
+2019-12-26 22:00:24,478 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/leloc/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 6 ms. number of Sw pack : 12
+2019-12-26 22:00:24,641 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2019-12-26 22:00:24,642 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2019-12-26 22:00:24,642 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 4.1.0
+2019-12-26 22:00:24,642 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.0
+2019-12-26 22:00:24,642 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 3.1.0
+2019-12-26 22:00:24,643 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.0.0
+2019-12-26 22:00:24,643 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2019-12-26 22:00:24,643 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2019-12-26 22:00:24,643 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2019-12-26 22:00:24,643 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2019-12-26 22:00:24,644 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.13.0
+2019-12-26 22:00:24,644 [INFO] ThirdParty:897 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2019-12-26 22:00:25,270 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-12-26 22:00:25,274 [INFO] PinOutPanel:1367 - setPackage(STM32F446RETx,LQFP64)
+2019-12-26 22:00:26,938 [INFO] UtilMem:74 - Before build in PCC Used Memory: 283570832 Bytes (618659840)
+2019-12-26 22:00:27,874 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/leloc/.stm32cubemx/plugins/power
+2019-12-26 22:00:27,878 [INFO] UtilMem:74 - After build in PCC Used Memory: 299299472 Bytes (618659840)
+2019-12-26 22:00:27,889 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:00:27,889 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,890 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,891 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,891 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,891 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,892 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,892 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,894 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,894 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,896 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,896 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,896 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,897 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,898 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,900 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,900 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,901 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,901 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,901 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,902 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,902 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,902 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,903 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,903 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,903 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,904 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,904 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,904 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,905 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,905 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,905 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,905 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,906 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,906 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,907 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,908 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,908 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,908 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,908 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,909 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,909 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,909 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,909 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,910 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,910 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,910 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,911 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,911 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,911 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,911 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,912 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,912 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,912 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,912 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,913 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,913 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,913 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,914 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,915 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,915 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-26 22:00:27,929 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:00:28,016 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2019-12-26 22:00:28,245 [INFO] OpenFileManager:289 - Restore cursor
+2019-12-26 22:00:28,442 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:00:28,518 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:00:28,805 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 361165456 Bytes (618659840)
+2019-12-26 22:00:28,892 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 363788936 Bytes (618659840)
+2019-12-26 22:00:29,746 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2019-12-26 22:00:29,747 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2019-12-26 22:00:29,747 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2019-12-26 22:00:29,751 [INFO] CodeGenerator:598 - code generatio: config db path: D:\Setup\STM32CubeIDE_1.1.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2019-12-26 22:00:30,815 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\MXTmpFiles\license.tmp_save
+2019-12-26 22:00:31,646 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\MXTmpFiles\license.tmp
+2019-12-26 22:00:31,989 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\MXTmpFiles\gpio.tmp_save
+2019-12-26 22:00:32,671 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\MXTmpFiles\gpio.tmp
+2019-12-26 22:00:32,797 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-12-26 22:00:32,798 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2019-12-26 22:00:32,799 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-12-26 22:00:32,803 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2019-12-26 22:00:32,804 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-12-26 22:00:32,834 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Src\stm32f4xx_it.c_save
+2019-12-26 22:00:33,593 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Src\stm32f4xx_it.c
+2019-12-26 22:00:33,614 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Inc\stm32f4xx_it.h_save
+2019-12-26 22:00:34,501 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Inc\stm32f4xx_it.h
+2019-12-26 22:00:34,600 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Src\stm32f4xx_hal_msp.c_save
+2019-12-26 22:00:35,090 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Src\stm32f4xx_hal_msp.c
+2019-12-26 22:00:35,117 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\MXTmpFiles\system.tmp_save
+2019-12-26 22:00:35,250 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\MXTmpFiles\system.tmp
+2019-12-26 22:00:35,342 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Inc\stm32f4xx_hal_conf.h_save
+2019-12-26 22:00:35,553 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Inc\stm32f4xx_hal_conf.h
+2019-12-26 22:00:35,636 [WARN] IPConfigManager:2673 - IP not found : gpio
+2019-12-26 22:00:35,638 [WARN] CodeGenerator:2697 - IP not found : gpio
+2019-12-26 22:00:35,650 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Inc\main.h_save
+2019-12-26 22:00:35,837 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Inc\main.h
+2019-12-26 22:00:35,859 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Src\main.c_save
+2019-12-26 22:00:36,351 [INFO] CodeEngine:211 - Generated code: C:\Users\leloc\Desktop\MCU-Course\MCU1\Clock\Core\Src\main.c
+2019-12-26 22:00:38,902 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 790mS.
+2019-12-26 22:00:38,930 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2019-12-26 22:00:40,421 [INFO] ConfigFileManager:953 - The Die is : DIE421
+2019-12-26 22:01:13,445 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 34515mS.
+2019-12-26 22:01:13,453 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 6mS.
+2019-12-26 22:01:13,483 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 1mS.
+2019-12-26 22:01:33,932 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-12-26 22:20:13,685 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:21:36,160 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Pinout & Configuration
+2019-12-26 22:21:39,520 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:21:43,110 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:21:43,265 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:21:44,745 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-12-26 22:22:02,924 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Pinout & Configuration
+2019-12-26 22:23:16,233 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-12-26 22:37:27,706 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:37:28,468 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:40:13,374 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-26 22:47:12,249 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 830842248 Bytes (923795456)
+2019-12-26 22:47:45,026 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-26 22:47:45,026 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-26 22:47:45,041 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-26 22:47:45,041 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-26 22:47:45,682 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 22:47:45,682 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 22:47:45,994 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-26 22:47:46,166 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-26 22:47:46,182 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-26 22:47:46,197 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-26 22:47:46,244 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-26 22:48:15,710 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-26 22:48:15,710 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-26 22:48:15,710 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-26 22:48:31,028 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-27 17:49:28,586 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-27 17:49:28,588 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-27 17:49:28,688 [INFO] MicroXplorer:390 - Change Database Path : 
+2019-12-27 17:49:28,688 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2019-12-27 17:49:28,718 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-12-27 17:49:28,738 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 519386304 Bytes (957349888)
+2019-12-27 17:49:28,738 [INFO] MicroXplorer:390 - Change Database Path : 
+2019-12-27 17:49:28,738 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2019-12-27 17:49:28,738 [INFO] OpenFileManager:269 - Change cursor
+2019-12-27 17:49:28,888 [INFO] RulesReader:52 - Compatibility file has been processed (179 Rules)
+2019-12-27 17:49:32,263 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2019-12-27 17:49:32,263 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2019-12-27 17:49:32,263 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDIOFreq_Value) has invalid value (168000000)
+2019-12-27 17:49:32,263 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (168000000)
+2019-12-27 17:49:32,265 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VcooutputI2S)
+2019-12-27 17:49:32,748 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 453515272 Bytes (957349888)
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 4.1.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 3.1.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.0.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.13.0
+2019-12-27 17:49:32,808 [INFO] ThirdParty:897 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2019-12-27 17:49:33,030 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-12-27 17:49:33,079 [INFO] PinOutPanel:1367 - setPackage(STM32F446RETx,LQFP64)
+2019-12-27 17:49:33,482 [INFO] UtilMem:74 - Before build in PCC Used Memory: 544160600 Bytes (957349888)
+2019-12-27 17:49:33,852 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/leloc/.stm32cubemx/plugins/power
+2019-12-27 17:49:33,852 [INFO] UtilMem:74 - After build in PCC Used Memory: 554120032 Bytes (957349888)
+2019-12-27 17:49:33,852 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,867 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-12-27 17:49:33,883 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-27 17:49:33,930 [INFO] OpenFileManager:289 - Restore cursor
+2019-12-27 17:49:34,162 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-27 17:49:34,192 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-27 17:49:49,854 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-12-27 17:50:15,315 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2019-12-27 20:01:28,972 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-27 20:01:28,981 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-27 20:01:29,012 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-27 20:01:29,017 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-27 20:01:30,137 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-27 20:01:30,137 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-27 20:01:30,879 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-27 20:01:31,206 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-27 20:01:31,206 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-27 20:01:31,233 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-27 20:01:31,323 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-27 20:01:59,744 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-27 20:01:59,744 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-27 20:01:59,744 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-27 22:07:23,618 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-27 22:07:23,618 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-27 22:07:23,687 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-27 22:07:23,687 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-27 22:07:24,436 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-27 22:07:24,436 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-27 22:07:24,652 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-27 22:07:24,990 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-27 22:07:24,990 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-27 22:07:24,990 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-27 22:07:25,053 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-27 22:07:51,511 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-27 22:07:51,511 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-27 22:07:51,511 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-12-29 17:48:04,281 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-29 17:48:04,325 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-29 17:48:04,467 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-29 17:48:04,482 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-29 17:48:05,797 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-29 17:48:05,799 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-29 17:48:07,285 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-29 17:48:07,531 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-29 17:48:07,531 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-29 17:48:07,550 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-29 17:48:07,830 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-29 17:48:30,376 [INFO] MainUpdater:2232 - connection check result : 10
+2019-12-29 17:48:30,378 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-12-29 17:48:30,400 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-12-29 17:48:30,401 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2019-12-29 17:48:31,389 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-29 17:48:31,389 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-29 17:48:31,937 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-12-29 17:48:32,225 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2019-12-29 17:48:32,225 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/leloc/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-12-29 17:48:32,237 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-12-29 17:48:32,253 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\leloc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-12-29 17:49:36,918 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2019-12-29 17:49:36,919 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-12-29 17:49:36,920 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2020-01-20 20:39:44,220 [INFO] Activator:176 - 
+
+
+2020-01-20 20:39:44,244 [INFO] Activator:177 - !SESSION log4j initialized
+2020-01-20 20:40:21,713 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://download.eclipse.org:80: The target server failed to respond
+2020-01-20 20:40:21,716 [INFO] RetryExec:113 - Retrying request to {}->http://download.eclipse.org:80

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;data_copy&apos; to &apos;003DataCopyFlashToRAM&apos;" description="Rename resource &apos;data_copy&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/data_copy" name="003DataCopyFlashToRAM" stamp="1577396858620" updateReferences="true"/>
+</session>
